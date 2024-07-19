@@ -1,0 +1,314 @@
+.hot-ideas-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 8px 0
+}
+
+.hot-ideas-col {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}
+
+.hot-ideas-col.-box {
+    box-sizing: border-box
+}
+
+.hot-ideas-col.-w40percent.-single {
+    width: 50%
+}
+
+.hot-ideas-col.-w60percent {
+    width: 50%
+}
+
+.hot-idea {
+    background: #111;
+    margin: .9%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%
+}
+
+.hot-idea::before {
+    background: #d8d8d8;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.hot-idea::after {
+    content: "";
+    display: block;
+    padding-bottom: 120%
+}
+
+.hot-idea.-single {
+    margin: 1.75%
+}
+
+.hot-ideas-col.-w40percent.-rows1 .hot-idea::after {
+    padding-bottom: 80%
+}
+
+.hot-ideas-col.-w40percent.-single .hot-idea::after {
+    padding-bottom: 63%
+}
+
+.hot-ideas-col.-w50percent .hot-idea::after {
+    padding-bottom: 80%
+}
+
+.hot-idea.-repaint-fix {
+    transform: translate3d(0, 0, 0)
+}
+
+.hot-idea-title {
+    box-sizing: border-box;
+    display: block;
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    text-shadow: 1px 1px 4px #111;
+    width: 100%
+}
+
+.hot-idea-title.-discount {
+    text-indent: -999em
+}
+
+.hot-idea-content {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.hot-idea-link {
+    color: #fff;
+    text-decoration: none !important
+}
+
+.hot-idea-link:hover .hot-idea-button {
+    background: #be2126
+}
+
+.hot-idea-link:hover .hot-idea-button.-blue {
+    background: #3157ab
+}
+
+.hot-idea-link::before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.hot-idea-link.-video::after {
+    background: url(https://cdn.carid.com/dist/css/prod-images/d0fedb08.svg) 0 0 no-repeat;
+    background-size: cover;
+    content: "";
+    display: inline-block;
+    height: 52px;
+    transition: all .4s ease 0s;
+    width: 52px
+}
+
+.hot-idea-link.-video.-big::after {
+    height: 82px;
+    width: 82px
+}
+
+.hot-idea-link.-video:hover::after {
+    transform: scale(1.2)
+}
+
+.hot-idea-img {
+    height: 100%;
+    left: 50%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.hot-idea-button {
+    background: #d4252a;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: 700;
+    padding: 7px 20px;
+    transition: background .2s
+}
+
+.hot-idea-button::before {
+    content: "SHOP NOW"
+}
+
+.hot-idea-button.-big {
+    font-size: 1.3em;
+    padding: 12px 32px
+}
+
+.hot-idea-button.-blue {
+    background: #3761bf
+}
+
+.hot-idea-button.-discount {
+    bottom: 7%;
+    left: 50%;
+    min-width: 58px;
+    position: absolute;
+    transform: translateX(-50%)
+}
+
+.hot-idea-button.-discount.-large {
+    bottom: 20%
+}
+
+.hot-idea-button.-read-all::before {
+    content: "READ ALL"
+}
+
+.hot-idea-button.-view-all::before {
+    content: "VIEW ALL"
+}
+
+.hot-idea-button.-get-free::before {
+    content: "GET FREE"
+}
+
+@media only screen and (min-width:421px) {
+    .hot-idea {
+        width: 100%
+    }
+
+    .hot-idea::after {
+        padding-bottom: 80%
+    }
+}
+
+@media only screen and (min-width:741px) {
+    .hot-ideas-wrap {
+        flex-wrap: nowrap;
+        margin: 16px 0
+    }
+
+    .hot-ideas-wrap.-wrap {
+        flex-wrap: wrap
+    }
+
+    .hot-ideas-col {
+        flex-direction: column;
+        padding: 0 8px;
+        width: 25%
+    }
+
+    .hot-ideas-col.-w20percent {
+        width: 20%
+    }
+
+    .hot-ideas-col.-w40percent {
+        width: 40%
+    }
+
+    .hot-ideas-col.-w40percent.-single {
+        width: 40%
+    }
+
+    .hot-ideas-col.-w50percent {
+        width: 50%
+    }
+
+    .hot-ideas-col.-w60percent {
+        width: 60%
+    }
+
+    .hot-idea {
+        height: 100%;
+        margin: 8px 0
+    }
+
+    .hot-idea.-single {
+        margin: 8px 0
+    }
+
+    .hot-ideas-col.-w20percent .hot-idea::after {
+        padding-bottom: 130%
+    }
+
+    .hot-ideas-col.-w40percent.-rows2 .hot-idea::after {
+        padding-bottom: 60%
+    }
+
+    .hot-ideas-col.-w40percent.-rows1 .hot-idea::after {
+        padding-bottom: 128%
+    }
+
+    .hot-ideas-col.-w60percent .hot-idea::after {
+        padding-bottom: 41%
+    }
+
+    .hot-idea-title {
+        margin-bottom: 24px
+    }
+
+    .hot-idea-title.-big {
+        margin-bottom: 32px
+    }
+
+    .hot-idea-img.-big {
+        height: auto;
+        width: 100%
+    }
+
+    .hot-idea-button.-desktop-big {
+        font-size: 1.5em;
+        padding: 14px 38px
+    }
+
+    .hot-idea-button.-big {
+        font-size: 1.5em;
+        padding: 16px 38px
+    }
+}
+
+@media only screen and (min-width:741px)and (max-width:1023.98px) {
+    .hot-idea-title.-big {
+        font-size: 2.8em
+    }
+
+    .hot-idea-link.-video::after {
+        height: 36px;
+        width: 36px
+    }
+
+    .hot-idea-link.-video.-big::after {
+        height: 52px;
+        width: 52px
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .hot-idea-title {
+        font-size: 2.4em
+    }
+
+    .hot-idea-title.-big {
+        font-size: 3.5em
+    }
+}

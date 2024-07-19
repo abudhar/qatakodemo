@@ -103,7 +103,7 @@ function fetchVin(){
         } else {
             console.log('Please enter a VIN.');
         }
-	javascript:window.location.href='/shopping.html?make='+make+'&model='+model+'&year='+year+'&subModel='+subModel;
+	javascript:window.location.href='/qatakodemo/shopping.html?make='+make+'&model='+model+'&year='+year+'&subModel='+subModel;
 }
 
 $(".after").click(function() {

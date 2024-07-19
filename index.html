@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qatako-قطعكو – لجميع منتجات وقطع غيار السيارات</title>
+    <link href="https://enovathemes.com/mobex/wp-content/cache/autoptimize/css/autoptimize_single_559aad522bf23163fc06b7738f3858a5.css?ver=6.6" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="Css/responsive.css">
+    <link rel="stylesheet" href="Css/gallery.css" />
+    <link rel="stylesheet" href="Css/makeModel.css" />
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- //Footer -->
+    <!-- Jquery -->
+    <!-- Local Js File -->
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="js/myJquery.js"></script>
+</head>
+<body>
+
+    <div class="includedHeader">
+
+    </div>
+	<!-- Background Carousel -->
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="elementor-widget-container">
+					<div class="et-vehicle-filter breakpoint-767 breakpoint-768-1023">
+						<div class="widget widget_product_vehicle_filter_widget">
+							<div class="vehicle-filter-mobile-toggle">Vehicle filter</div>
+							<form name="product-vehicle-filter"
+								class="product-vehicle-filter vehicle-filter title-active vin vertical product-vehicle-filter-653931 active"
+								data-rem="true" data-count="2" method="POST">
+								<h5 style="text-align: left">Select your car</h5>
+								<br>
+								<div class="atts">
+									<div class="vf-item year">
+										<select name="year" data-select2-id="select2-data-25-8too" id="yearId"
+											tabindex="-1" class="select2"
+											aria-hidden="true"><option class="default" value="" i>Year</option>
+											<option value="2024">2024</option>
+											<option value="2023">2023</option>
+											<option value="2022">2022</option>
+											<option value="2021">2021</option>
+											<option value="2020">2020</option>
+											<option value="2019">2019</option>
+											<option value="2018">2018</option>
+											<option value="2017">2017</option>
+											<option value="2016">2016</option>
+											<option value="2015">2015</option>
+											<option value="2014">2014</option>
+											<option value="2013">2013</option>
+											<option value="2012">2012</option>
+										</select>
+									</div>
+									<div class="vf-item make" data-attribute="make"
+										data-label="Make">
+										<select name="make" data-select2-id="select2-data-19-32fs" tabindex="-1" class="select2" aria-hidden="true"  id="makeId">
+											<option class="default" value="">Make</option>
+											<option value="BMW">BMW</option>
+											<option value="Bentley">Bentley</option>
+											<option value="Cadillac">Cadillac</option>
+											<option value="Chevrolet">Chevrolet</option>
+											<option value="Dodge">Dodge</option>
+											<option value="Ford">Ford</option>
+											<option value="Honda">Honda</option>
+											<option value="Hyundai">Hyundai</option>
+											<option value="Infiniti">Infiniti</option>
+											<option value="KIA">KIA</option>
+											<option value="Lamborghini">Lamborghini</option>
+											<option value="Lexus">Lexus</option>
+											<option value="Lincoln">Lincoln</option>
+											<option value="Maybach">Maybach</option>
+											<option value="Mazda">Mazda</option>
+											<option value="Mercedes-Benz">Mercedes-Benz</option>
+											<option value="Mitsubishi">Mitsubishi</option>
+											<option value="Nissan">Nissan</option>
+											<option value="Porsche">Porsche</option>
+											<option value="Rolls-Royce">Rolls-Royce</option>
+											<option value="Toyota">Toyota</option>
+											<option value="Volkswagen">Volkswagen</option>
+											<option value="Volvo">Volvo</option>
+											<option value="Audi">Audi</option>
+										</select>
+									</div>
+									<div class="vf-item model">
+										<select name="model" data-select2-id="select2-data-22-bvgl"
+											tabindex="-1" class="select2"
+											aria-hidden="true">
+											<option class="default" value="" id="modelId">Model</option>
+											<option value="S4">S4</option>
+										</select>
+									</div>
+
+									<div class="vf-item engine">
+										<select name="engine" data-select2-id="select2-data-28-o8cl"
+											tabindex="-1" class="select2"
+											aria-hidden="true">
+											<option class="default" value="" id="subModelId">Sub-Model</option>
+											<option value="3" >3</option>
+										</select>
+									</div>
+								</div>
+								<div class="last">
+									<div class="vin">
+										<span>OR</span> <input type="text" class="vin" value="" id="vinInput"
+											placeholder="Search by VIN">
+									</div>
+									<input type="button" value="Search" onclick="fetchVin();">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-md-12">
+			    <section id="bg-carousel">
+			        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			            <div class="carousel-inner">
+			                <div class="carousel-item active">
+			                    <img src="https://htmldemo.net/tromic/tromic/assets/images/slider/bg/1-1.jpg" class="d-block w-100" alt="Cars">
+			                </div>
+			                <div class="carousel-item">
+			                    <img src="https://htmldemo.net/tromic/tromic/assets/images/slider/bg/1-2.jpg" class="d-block w-100" alt="Cars">
+			                </div>
+			                <div class="text-center carousel-top">
+			                    <div class="w-100">
+			                        <h3 class="text-white font-weight-bold">CAR PARTS & ACCESSORIES</h3>
+			                        <p>Customize, Modify, Upgrade, Repair, Replace</p>
+			                    </div>
+			
+			                </div>
+			            </div>
+			        </div>
+			    </section>
+			</div>		
+		</div>
+    </div>
+    <!-- /Background carousel -->
+    <!-- Make Model -->
+    <!-- <div class="container">
+        <div class="js-main-select-bar-holder main-select-bar-inherit-height" id="makeModelDiv">
+            <aside class="select-vehicle select-vehicle-spacer js-select-vehicle-spacer" id="makeModelDivInner">
+                <div class="select-vehicle-heading">Select Your Vehicle<div class="subheading">Provide vehicle details
+                        to
+                        confirm fitment</div>
+                </div>
+                <div class="content">
+                    <div class="select-vehicle-content-spacer" style="min-height: 48px;">
+                        <div class="select-vehicle-items _clear-modern">
+                            <div class="select-vehicle-col ">
+                                <div tabindex="0" data-placeholder="Year" id="yearDiv" onclick="showHideSearch('yearDiv')"
+                                    class="main-selector -big -with-marker -selected">
+                                    <small class="value" id="yearShow" >2024</small><span class="select-close-area"></span>
+                                    <ul class="list">
+                                        <li onclick="showVal('2024', 'yearShow')">2024</li>
+                                        <li onclick="showVal('2023', 'yearShow')">2023</li>
+                                        <li onclick="showVal('2022', 'yearShow')">2022</li>
+                                        <li onclick="showVal('2021', 'yearShow')">2021</li>
+                                        <li onclick="showVal('2020', 'yearShow')">2020</li>
+                                        <li onclick="showVal('2019', 'yearShow')">2019</li>
+                                        <li onclick="showVal('2018', 'yearShow')">2018</li>
+                                        <li onclick="showVal('2017', 'yearShow')">2017</li>
+                                        <li onclick="showVal('2016', 'yearShow')">2016</li>
+                                        <li onclick="showVal('2015', 'yearShow')">2015</li>
+                                        <li onclick="showVal('2014', 'yearShow')">2014</li>
+                                        <li onclick="showVal('2013', 'yearShow')">2013</li>
+                                        <li onclick="showVal('2012', 'yearShow')">2012</li>
+                                        <li onclick="showVal('2011', 'yearShow')">2011</li>
+                                        <li onclick="showVal('2010', 'yearShow')">2010</li>
+                                        <li onclick="showVal('2009', 'yearShow')">2009</li>
+                                        <li onclick="showVal('2008', 'yearShow')">2008</li>
+                                    </ul>
+                                    <small class="marker">1</small>
+                                </div>
+                            </div>
+                            <div class="select-vehicle-col ">
+                                <div tabindex="0" data-placeholder="Make" id="makeDiv" onclick="showHideSearch('makeDiv')"
+                                    class="main-selector -big  -with-marker -selected">
+                                    <small class="value" id="makeShow">Audi</small><span class="select-close-area"></span>
+                                    <ul class="list">
+                                        <li onclick="showVal('Toyota', 'makeShow')">Toyota</li>
+                                        <li onclick="showVal('Lexus', 'makeShow')">Lexus</li>
+                                        <li onclick="showVal('Benz', 'makeShow')">Benz</li>
+                                        <li onclick="showVal('BMW', 'makeShow')">BMW</li>
+                                        <li onclick="showVal('Honda', 'makeShow')">Honda</li>
+                                        <li onclick="showVal('Nissan', 'makeShow')">Nissan</li>
+                                        <li onclick="showVal('Audi', 'makeShow')">Audi</li>
+                                        <li onclick="showVal('Hyundai', 'makeShow')">Hyundai</li>
+                                        <li onclick="showVal('Ford', 'makeShow')">Ford</li>
+                                        <li onclick="showVal('GMC', 'makeShow')">GMC</li>
+                                    </ul>
+                                    <small class="marker">2</small>
+                                </div>
+                            </div>
+                            <div class="select-vehicle-col ">
+                                <div tabindex="0" data-placeholder="Model" id="modelDiv" onclick="showHideSearch('modelDiv')"
+                                    class="main-selector -big  -with-marker -selected">
+                                    <small id="modelShow" class="value">Q8</small><span class="select-close-area"></span>
+                                    <ul class="list">
+                                        <li onclick="showVal('Toyota Camry', 'modelShow')">Toyota Camry</li>
+                                        <li onclick="showVal('Toyota Hilux', 'modelShow')">Toyota Hilux</li>
+                                        <li onclick="showVal('Hyundai Elantra', 'modelShow')">Hyundai Elantra</li>
+                                        <li onclick="showVal('Chevrolet Tahoe', 'modelShow')">Chevrolet Tahoe</li>
+                                        <li onclick="showVal('Ford Expedition', 'modelShow')">Ford Expedition</li>
+                                        <li onclick="showVal('Honda Accord', 'modelShow')">Honda Accord</li>
+                                        <li onclick="showVal('Nissan Patrol', 'modelShow')">Nissan Patrol</li>
+                                        <li onclick="showVal('Kia Optima', 'modelShow')">Kia Optima</li>
+                                        <li onclick="showVal('Chevrolet Silverado', 'modelShow')">Chevrolet Silverado</li>
+                                        <li onclick="showVal('Hyundai Sonata', 'modelShow')">Hyundai Sonata</li>
+                                    </ul>
+                                    <small class="marker">3</small>
+                                </div>
+                            </div>
+                            <div class="select-vehicle-col ">
+                                <div tabindex="0" data-placeholder="Sub-Model" id="subModelDiv" onclick="showHideSearch('subModelDiv')"
+                                    class="main-selector -big  -with-marker -selected">
+                                    <small id="subModelShow" class="value">Saloon</small><span class="select-close-area"></span>
+                                    <ul class="list">
+                                        <li onclick="showVal('Toyota Camry', 'subModelShow')">Toyota Camry</li>
+                                        <li onclick="showVal('Toyota Hilux', 'subModelShow')">Toyota Hilux</li>
+                                        <li onclick="showVal('Hyundai Elantra', 'subModelShow')">Hyundai Elantra</li>
+                                        <li onclick="showVal('Chevrolet Tahoe', 'subModelShow')">Chevrolet Tahoe</li>
+                                        <li onclick="showVal('Ford Expedition', 'subModelShow')">Ford Expedition</li>
+                                        <li onclick="showVal('Honda Accord', 'subModelShow')">Honda Accord</li>
+                                        <li onclick="showVal('Nissan Patrol', 'subModelShow')">Nissan Patrol</li>
+                                        <li onclick="showVal('Kia Optima', 'subModelShow')">Kia Optima</li>
+                                        <li onclick="showVal('Chevrolet Silverado', 'subModelShow')">Chevrolet Silverado</li>
+                                        <li onclick="showVal('Hyundai Sonata', 'subModelShow')">Hyundai Sonata</li>
+                                    </ul>
+                                    <small class="marker">4</small>
+                                </div>
+                            </div>
+                            <div tabindex="0" class="select-vehicle-button  -after-selects" id="goBtn" onclick="javascript:window.location.href='/shopping.html'">GO</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aside-slct-load -rounded"></div>
+            </aside>
+        </div>
+    </div> -->
+    <!-- //Gallery -->
+    <!-- Featured Make -->
+    <div class="container">
+        <h4 class="my-4 text-left">Featured manufacturers</h4>
+        <div class="row">
+            <!-- Repeat this block for each manufacturer -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 manufacturer-card">
+                <a href="/shopping.html?make=Audi">
+                    <img src="https://enovathemes.com/mobex/wp-content/themes/mobex/images//vehicle-logos/audi.webp" alt="Audi">
+                    <div>Audi</div>
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 manufacturer-card">
+                <a href="/shopping.html?make=Bentley">
+                    <img src="https://enovathemes.com/mobex/wp-content/themes/mobex/images//vehicle-logos/bentley.webp" alt="Bentley">
+                    <div>Bentley</div>
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 manufacturer-card">
+                <a href="/shopping.html?make=Chevrolet">
+                    <img src="https://enovathemes.com/mobex/wp-content/themes/mobex/images//vehicle-logos/chevrolet.webp" alt="Chevrolet">
+                    <div>Chevrolet</div>
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 manufacturer-card">
+                <a href="/shopping.html?make=Ford">
+                    <img src="https://enovathemes.com/mobex/wp-content/themes/mobex/images//vehicle-logos/ford.webp" alt="Ford">
+                    <div>Ford</div>
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 manufacturer-card">
+                <a href="/shopping.html?make=Infiniti">
+                    <img src="https://enovathemes.com/mobex/wp-content/themes/mobex/images//vehicle-logos/infiniti.webp" alt="Infiniti">
+                    <div>Infiniti</div>
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 manufacturer-card">
+                <a href="/shopping.html?make=KIA">
+                    <img src="https://enovathemes.com/mobex/wp-content/themes/mobex/images//vehicle-logos/kia.webp" alt="Kia">
+                    <div>Kia</div>
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 manufacturer-card">
+                <a href="/shopping.html?make=Toyota">
+                    <img src="https://enovathemes.com/mobex/wp-content/themes/mobex/images//vehicle-logos/toyota.webp" alt="Toyota">
+                    <div>Toyota</div>
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 manufacturer-card">
+                <a href="/shopping.html?make=Honda">
+                    <img src="https://enovathemes.com/mobex/wp-content/themes/mobex/images//vehicle-logos/honda.webp" alt="Honda">
+                    <div>Honda</div>
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 manufacturer-card">
+                <a href="/shopping.html?make=Hyundai">
+                    <img src="https://enovathemes.com/mobex/wp-content/themes/mobex/images//vehicle-logos/hyundai.webp" alt="Hyundai">
+                    <div>Hyundai</div>
+                </a>
+            </div>       
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 manufacturer-card">
+                <a href="/shopping.html?make=Volkswagen">
+                    <img src="https://enovathemes.com/mobex/wp-content/themes/mobex/images//vehicle-logos/volkswagen.webp" alt="Volkswagen">
+                    <div>Volkswagen</div>
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 manufacturer-card">
+                <a href="/shopping.html?make=Nissan">
+                    <img src="https://enovathemes.com/mobex/wp-content/themes/mobex/images//vehicle-logos/nissan.webp" alt="Nissan">
+                    <div>Nissan</div>
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 manufacturer-card">
+                <a href="/shopping.html?make=BMW">
+                    <img src="https://enovathemes.com/mobex/wp-content/themes/mobex/images//vehicle-logos/bmw.webp" alt="BMW">
+                    <div>BMW</div>
+                </a>
+            </div>     
+        </div>
+    </div>
+    <!-- Featured Make  -->
+    <!-- Double Card Carousel -->
+
+
+    <section id="dbl-card-carousel">
+        <div class="container">
+            <h3 class=" text-center text-danger "> Features And Service</h3>
+            <div class="row">
+
+                <div id="carouselExampleSlidesOnly" class="carousel slide w-100 mt-5" data-ride="carousel">
+                    <ol class="carousel-indicators text-dark">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-danger"></li>
+                        <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1" class=" bg-danger"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2" class=" bg-danger"></li> -->
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-6 col-6">
+                                    <!-- <div class="card">
+                                        <div class="" style="background-image: url('images/torxe_0dbl.jpg');">
+                                            <div class="mt-5 px-4 py-3">
+                                                <h1 class=" text-white">Torxe</h1>
+                                                <p class=" text-white">Torxe never compromises with details, and all its
+                                                    products are designed smartly - just like your vehicle. They last
+                                                    long and ride hard.</p>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <div class="card">
+                                        <img class="img-fluid" src="images/torxe_0dbl.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <!-- <div class="card">
+                                        <div class="" style="background-image: url('images/torxe_0dbl.jpg');">
+                                            <div class="mt-5 px-4 py-3">
+                                                <h1 class=" text-white">Torxe</h1>
+                                                <p class=" text-white">Torxe never compromises with details, and all its
+                                                    products are designed smartly - just like your vehicle. They last
+                                                    long and ride hard.</p>
+                                            </div>
+                                        </div>
+                                     </div> -->
+                                    <div class="card">
+                                        <img class="img-fluid" src="images/torxe_0dbl.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-6 col-6">
+                                    <div class="card">
+                                        <img class="img-fluid" src="images/torxe_0dbl.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <div class="card">
+                                        <img class="img-fluid" src="images/spyder-headlights_0dbl.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-6 col-6">
+                                    <div class="card">
+                                        <img class="img-fluid" src="images/torxe_0dbl.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <div class="card">
+                                        <img class="img-fluid" src="images/spyder-headlights_0dbl.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev text-dark" href="#carouselExampleSlidesOnly" role="button"
+                        data-slide="prev">
+                        <span class="" aria-hidden="true"><i class="fas fa-angle-left fa-2x"></i></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next text-dark" href="#carouselExampleSlidesOnly" role="button"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"><i
+                                class="fas fa-angle-right fa-2x"></i></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Features Makes 
+    <section id="features">
+        <div class="container">
+            <div class="my-5">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#feature-make"
+                            role="tab" aria-controls="nav-home" aria-selected="true">Features Makes</a>
+                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#feature-model"
+                            role="tab" aria-controls="nav-profile" aria-selected="false">Features Models</a>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent my-3">
+                    <div class="tab-pane fade show active my-3" id="feature-make" role="tabpanel"
+                        aria-labelledby="nav-home-tab">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade my-3" id="feature-model" role="tabpanel"
+                        aria-labelledby="nav-profile-tab">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="must-have-card">
+                                    <a href="#">
+                                        <h5 style="font-size: 1em; font-weight: bold;">Brake Pads</h5>
+                                        <p style="font-size: 0.8em;">Get Trusting Ships</p>
+                                        <span><i class="far fa-arrow-alt-circle-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>-->
+
+
+    <!-- //Features Makes -->
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="pt-1 ">
+            <div class="container-fluid my-5">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                        <button class="btn btn-outline-secondary btn-block">Subscribe to Our NewsLetter</button>
+                        <p class="mt-3">to stay up-to-date on our promotions, discounts, sales, special offers and more.
+                        </p>
+                        <p class="social_icon">
+                            <a><i class="fab fa-facebook-f"></i></a>
+                            <a><i class="fab fa-instagram"></i></a>
+                            <a><i class="fab fa-twitter"></i></a>
+                            <a><i class="fab fa-pinterest-p"></i></a>
+                            <a><i class="fab fa-linkedin-in"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-sm-right">
+                        <h3>Service</h3>
+                        <ul>
+                            <li> <a href="#"> Help Center</a></li>
+                            <li><a href="#">My Account</a> </li>
+                            <li><a href="#">Track Order</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Price Match</a></li>
+                            <li><a href="#">Gifts Card</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                        <h3>Information</h3>
+                        <ul>
+                            <li> <a href="#"> Help Center</a></li>
+                            <li><a href="#">My Account</a> </li>
+                            <li><a href="#">Track Order</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Price Match</a></li>
+                            <li><a href="#">Gifts Card</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-sm-right">
+                        <h3>Contact Us</h3>
+                        <ul>
+                            <li> <a href="#"> Help Center</a></li>
+                            <li><a href="#">My Account</a> </li>
+                            <li><a href="#">Track Order</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Price Match</a></li>
+                            <li><a href="#">Gifts Card</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class=" bg-dark py-4" id="copyright-footer">
+                <span class="text-secondary pl-3 mb-0">Copyright © 2003-2021 qatako.com. All rights reserved.</span>
+                <span class=" float-right px-3">
+                    <a href="#">privacy policy</a>
+                    <a href="#">sitemap</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<script type="text/javascript">
+	$('.select2').select2();
+</script>
+
+</html>

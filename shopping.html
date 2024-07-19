@@ -431,10 +431,10 @@
 		}
 		return false;
 	};
-    $("#yearId").val(getUrlParameter("year")==null?"!":getUrlParameter("year")).trigger('change');
-    $("#makeId").val(getUrlParameter("make")==null?"!":getUrlParameter("make")).trigger('change');
-    $("#modelId").val(getUrlParameter("model")==null?"!":getUrlParameter("model")).trigger('change');
-    $("#subModelId").val(getUrlParameter("subModel")==null?"!":getUrlParameter("subModel")).trigger('change');
+    $("#yearId").val(fnValidateString(getUrlParameter("year"))?"!":getUrlParameter("year")).trigger('change');
+    $("#makeId").val(fnValidateString(getUrlParameter("make"))?"!":getUrlParameter("make")).trigger('change');
+    $("#modelId").val(fnValidateString(getUrlParameter("model"))?"!":getUrlParameter("model")).trigger('change');
+    $("#subModelId").val(fnValidateString(getUrlParameter("subModel"))?"!":getUrlParameter("subModel")).trigger('change');
 </script>
 </body>
 </html>

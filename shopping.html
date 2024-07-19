@@ -429,7 +429,7 @@
 				return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
 			}
 		}
-		return false;
+		return null;
 	};
     $("#yearId").val(!fnValidateString(getUrlParameter("year"))?"!":getUrlParameter("year")).trigger('change');
     $("#makeId").val(!fnValidateString(getUrlParameter("make"))?"!":getUrlParameter("make")).trigger('change');
